@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravikirann V - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #f4f4f4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #61dafb;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .about, .skills, .projects, .resume, .contact {
+            margin-bottom: 40px;
+        }
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #333;
+            transition: transform 0.3s;
+        }
+        .about img:hover {
+            transform: scale(1.1);
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .skills li:hover {
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .projects .project-card {
+            display: inline-block;
+            width: calc(33% - 40px);
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .projects .project-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            height: auto;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        .contact form input:focus, .contact form textarea:focus {
+            border-color: #61dafb;
+            outline: none;
+        }
+        .contact form button {
+            padding: 15px 20px;
+            background-color: #61dafb;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .contact form button:hover {
+            background-color: #21a1f1;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+        }
+        h1{
+            color: #21a1f1;
+        }
+        .contact{
+            background-color: #333;
+
+        }
+        .contact h2{
+            color: #21a1f1;
+        }
+        .resume a {
+            display: inline-block;
+            padding: 15px 20px;
+            background-color: #61dafb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s, transform 0.3s;
+            border: 2px solid #333;
+            margin-top: 10px;
+        }
+        .resume a:hover {
+            background-color: #21a1f1;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ravikiran V</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="./image/photo.jpg" alt="Ravikirann V" id="profile-pic">
+        <p>Hello! I'm Ravikirann V, a passionate and dedicated developer with a keen interest in web development, data analysis, and machine learning. I specialize in creating dynamic and user-friendly web applications, conducting insightful data analysis, and building intelligent machine learning models.</p>
+    <p>With a solid background in front-end and back-end technologies, I excel at developing responsive and visually appealing websites. My experience in data analysis has equipped me with the skills to extract actionable insights from complex datasets. Additionally, my work in machine learning involves designing and training models to solve real-world problems.</p>
+    <p>When I'm not coding, you can find me exploring the latest trends in technology, contributing to open-source projects, or working on personal projects to refine my skills. I'm excited about opportunities to collaborate and bring innovative ideas to life.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, Java, Python</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Computer Networks</li>
+            <li>Object-Oriented Programming</li>
+            <li>Database - MySQL</li>
+            <li>Web Development - HTML, CSS, JavaScript, React.js</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="./image/sign.jpg" alt="Real Time Sign Language Detection">
+            <h3>Real Time Sign Language Detection</h3>
+            <p>This project focuses on creating a real-time sign language detection system. By leveraging Convolutional Neural Networks (CNNs), the system is designed to interpret hand gestures and translate them into corresponding spoken or written language. The project involves using TensorFlow for building and training CNN models, OpenCV for image processing and real-time capture, and NumPy and Scikit-Learn for data manipulation and analysis. Developed in PyCharm, it integrates machine learning applications in communication.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="./image/analysis.jpg" alt="Car Price and Pizza Sales Data Analysis">
+            <h3>Car Price and Pizza Sales Data Analysis</h3>
+            <p>In this project, I performed comprehensive data analysis on car price and pizza sales datasets using Python. The process included data cleaning to prepare the datasets for analysis, followed by detailed visualization to identify patterns and trends. Statistical analysis was conducted to extract meaningful insights, helping to understand the factors affecting car prices and pizza sales. This analysis provided actionable information for strategic decision-making.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <p><a href="https://drive.google.com/file/d/1gqFFTgBPEHhycm7gz4lTLSQL7I6GM_K8/view?usp=drivesdk" target="_blank">Download my resume</a></p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ravikirann V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
